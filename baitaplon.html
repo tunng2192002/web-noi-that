@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <title>NguyenTuanTung</title>
+    <link rel="stylesheet"  href="baitaplon.css"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  </head> 
+  <body style="background-color: black">
+    
+     <div class="banner">
+        <div class="navbar">
+           <h1 id="no1" style="color: #fff;">TSH</h1>
+           <ul id="menu">
+               <li><a class="menu" id="" href="#">Home</a></li>
+               <li><a class="menu" href="#ct">Contact</a></li>
+               <li><a class="menu" href="#abs">About us</a></li>
+               <li><a class="menu"href="#products">Products</a></li>
+              
+           </ul>
+           <div class="content">
+               <h1  style="font-size:70px;">DESIGN YOUR HOUSE</h1>
+               <p>Chúng tôi chuyên cung cấp nội thất xịn và tốt nhất cho khách hàng đặc biệt người mua hàng lần đầu sẽ được khuyễn mãi cực khủng lên đến 0.5%</p>
+               <button  type="button"><span class="nd"></span>Đặt Hàng Ngay</a></button>
+            </div>      
+        </div>
+     </div>  
+     <div style="margin-top: 100px;" class="container">
+         <div class="row">
+             <div class="col-sm-6 col-md-6 cot1">
+                 <h1  style="color: #fff;"  >Lịch sử thành lập</h1>
+                 <p  style="color: #fff;">Thành lập vào năm 2021 với đôi bàn tay trắng bây giờ chúng tôi đã trở thành chủ doanh nghiệp của tập toàn nội thất TSH</p>
+             </div>
+             <div class="col-sm-6 col-md-6 cot2">
+                 <img style="width: 100%; height: 80%;" src="https://thietkenhadepmoi.com/wp-content/uploads/2014/12/phong-khach-tan-co-dien-biet-thu-285m2-7459.jpg" alt="">
+             </div>
+         </div>
+     </div>
+     <h1 style="margin-top: 100px;" class="vip">Some Products From Us</h1>
+     <div class="w3-content w3-section" style="max-width:1000px">    
+      <img class="mySlides w3-animate-fading" src="https://thietkehomexinh.com/wp-content/uploads/2017/05/Thiet-ke-noi-that-phong-khach-nha-pho.jpg" style="width:100%">
+      <img class="mySlides w3-animate-fading" src="https://sonsochu.vn/wp-content/uploads/2020/10/Top-8-phong-cach-thiet-ke-noi-that-thinh-hanh-nhat-2020.jpg" style="width:100%">
+      <img class="mySlides w3-animate-fading" src="https://xuonggooccho.com/wp-content/uploads/2019/07/Hinh-anh-phong-ngu-dep-3.jpg" style="width:100%">
+      <img class="mySlides w3-animate-fading" src="https://sbr.vn/media/designs/133/thumb.jpg" style="width:100%">
+    </div>
+    
+    <script>
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 9000);    
+    }
+    </script>
+      <div style="margin-top: 200px;" class="container">
+        <div class="row">
+          <div class="col-5"></div>
+          <div class="col-sm-2 col-md-2">
+            <img id="products"  width="100%" height="100px" src="https://wwwskhlmse.cdn.triggerfish.cloud/uploads/2018/12/normal_logga-242x100.png" alt="">
+          </div>
+          <div class="col-5"></div>
+        </div>
+      </div>
+     <div style="margin-top: 50px;" class="container-fluid">
+       <div class="row">
+           
+         <div  class="col-sm-6 col-md-3 sp">
+           <a class="ten" href="#">
+            <img style="width:100%;height: 100%;" src="http://bien3d.com/wp-content/uploads/thiet-ke-noi-that-dep-1.jpg.webp" alt="">
+            <p><i class="fas fa-shopping-cart"></i> MUA NGAY</p>
+            <h1 class="as" style="color: #fff; font-size: 20px;">3.000.000đ</h1>
+          </a> 
+          
+          </div>
+          <div class="col-sm-6 col-md-3 sp">
+            <a  class="ten" href="#">
+             <img style="width:100%;height: 100%;" src="https://picart.vn/wp-content/uploads/2020/04/gallery-phong-khach-picart-01.jpg" alt="">
+             <p><i class="fas fa-shopping-cart"></i> MUA NGAY</p>
+             <h1 class="as" style="color: #fff; font-size: 20px;">6.359.000đ</h1>
+            </a>
+            
+          </div>
+          <div class="col-sm-6 col-md-3 sp">
+            <a  class="ten" href="#">
+             <img style="width:100%;height: 100%;" src="https://giasachdep.com/wp-content/uploads/2019/09/thiet-ke-noi-that-nha-pho-dep-9-1024x768.jpg" alt="">
+             <p><i class="fas fa-shopping-cart"></i> MUA NGAY</p>
+             <h1 class="as" style="color: #fff; font-size: 20px;">7.999.000đ</h1>
+            </a>
+            
+          </div>
+          <div class="col-sm-6 col-md-3 sp">
+            <a  class="ten" href="#">
+             <img style="width:100%;height: 100%;" src="https://tuonglamphotos.com/wp-content/uploads/2020/04/chup-anh-noi-that-tuonglamphotos.com-44.jpg" alt="">
+             <p><i class="fas fa-shopping-cart"></i> MUA NGAY</p>
+             <h1 class="as" style="color: #fff; font-size: 20px;">6.999.999đ</h1>
+            </a>
+            
+          </div>
+       </div>
+     </div>
+     
+     <div style="margin-top: 100px;" class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6 col-md-3 sp">
+          <a class="ten" href="#">
+           <img style="width:100%;height: 100%;" src="http://noithatchungcu24h.com/wp-content/uploads/2016/07/CAM11-1.jpg" alt="">
+           <p><i class="fas fa-shopping-cart"></i> MUA NGAY</p>
+           <h1 class="as" style="color: #fff; font-size: 20px;">5.000.000đ</h1>
+         </a> 
+         
+         </div>
+         <div class="col-sm-6 col-md-3 sp">
+           <a  class="ten" href="#">
+            <img style="width:100%;height: 100%;" src="https://homeoffice.com.vn/images/thumbnails/894/583/blog/6/mau-phong-khach-dep-theo-phong-cach-hien-dai.jpg?t=1627978682" alt="">
+            <p><i class="fas fa-shopping-cart"></i> MUA NGAY</p>
+            <h1 class="as" style="color: #fff; font-size: 20px;">5.359.000đ</h1>
+           </a>
+           
+         </div>
+         <div class="col-sm-6 col-md-3 sp">
+           <a  class="ten" href="#">
+            <img style="width:100%;height: 100%;" src="https://thietkehomexinh.com/wp-content/uploads/2018/08/Thi%E1%BA%BFt-k%E1%BA%BF-n%E1%BB%99i-th%E1%BA%A5t-nh%C3%A0-%E1%BB%91ng-2-t%E1%BA%A7ng-%C4%91%C6%A1n-gi%E1%BA%A3n-b%E1%BA%AFt-m%E1%BA%AFt-m%C3%AA-%C4%91%E1%BA%AFm-m%E1%BB%8Di-%C3%A1nh-nh%C3%ACn.jpg" alt="">
+            <p><i class="fas fa-shopping-cart"></i> MUA NGAY</p>
+            <h1 class="as" style="color: #fff; font-size: 20px;">5.999.000đ</h1>
+           </a>
+           
+         </div>
+         <div class="col-sm-6 col-md-3 sp">
+           <a  class="ten" href="#">
+            <img style="width:100%;height: 100%;" src="https://sonsochu.vn/wp-content/uploads/2020/10/Top-8-phong-cach-thiet-ke-noi-that-thinh-hanh-nhat-2020.jpg" alt="">
+            <p><i class="fas fa-shopping-cart"></i> MUA NGAY</p>
+            <h1 class="as" style="color: #fff; font-size: 20px;">8.999.999đ</h1>
+           </a>
+           
+         </div>
+      </div>
+    </div>
+    
+    <div style="margin-top: 100px;" class="container">
+      <div class="row">
+        <div class="col-5"></div>
+        <div class="col-sm-2 col-md-2">
+          <img width="100%" height="200px" src="https://sgbabyvip.me/wp-content/uploads/2020/12/vip-3.jpg" alt="">
+        </div>
+        <div class="col-5"></div>
+      </div>
+    </div>
+
+    <div style="margin-top: 20px;" class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6 col-md-3 sp">
+          <a class="ten" href="#">
+           <img style="width:100%;height: 100%;" src="https://hoaphatmiennam.vn/wp-content/uploads/2020/10/anh-noi-that-dep-17.jpg" alt="">
+           <p><i class="fas fa-shopping-cart"></i> MUA NGAY <i class="fas fa-gem"></i></p>
+           <h1 class="as" style="color: #fff; font-size: 20px;">22.000.000đ</h1>
+         </a> 
+         
+         </div>
+         <div class="col-sm-6 col-md-3 sp">
+           <a  class="ten" href="#">
+            <img style="width:100%;height: 100%;" src="https://kientrucnamkhang.com/wp-content/uploads/2018/10/xu-huong-kien-truc-theo-phong-cach-chau-au-1974.jpg" alt="">
+            <p><i class="fas fa-shopping-cart"></i> MUA NGAY <i class="fas fa-gem"></i></p>
+            <h1 class="as" style="color: #fff; font-size: 20px;">22.359.000đ</h1>
+           </a>
+           
+         </div>
+         <div class="col-sm-6 col-md-3 sp">
+           <a  class="ten" href="#">
+            <img style="width:100%;height: 100%;" src="http://anbinhland.com.vn/wp-content/uploads/2016/12/2-phong-cach-chau-au-hien-dai-cho-phong-khach.jpg" alt="">
+            <p><i class="fas fa-shopping-cart"></i> MUA NGAY <i class="fas fa-gem"></i></p>
+            <h1 class="as" style="color: #fff; font-size: 20px;">22.999.000đ</h1>
+           </a>
+           
+         </div>
+         <div class="col-sm-6 col-md-3 sp">
+           <a  class="ten" href="#">
+            <img style="width:100%;height: 100%;" src="https://kientruchikari.com/wp-content/uploads/2017/12/4-10-m%E1%BA%ABu-n%E1%BB%99i-th%E1%BA%A5t-%C4%91%E1%BA%B9p-cho-ph%C3%B2ng-kh%C3%A1ch-mang-phong-c%C3%A1ch-ho%C3%A0ng-gia.5.jpg" alt="">
+            <p><i class="fas fa-shopping-cart"></i> MUA NGAY <i class="fas fa-gem"></i></p>
+            <h1 class="as" style="color: #fff; font-size: 20px;">22.999.999đ</h1>
+           </a>
+           
+         </div>
+      </div>
+    </div>
+    
+    <div style="margin-top: 200px;" class="container">
+      <div class="row">
+        <div class="col-5"></div>
+        <div class="col-sm-2 col-md-2">
+          <img id="abs"  width="100%" height="100px" src="https://www.lotus-house.com/media/wysiwyg/Footer/aboutus.png" alt="">
+        </div>
+        <div class="col-5"></div>
+      </div>
+    </div>
+
+     <div style="margin-top: 100px;" class="container">
+       <div class="row">
+         <div class="col-sm-6 col-md-4 new1">
+          <table border="1">
+            <tr>
+              <td>
+                <a class="more" href="">
+                  <img style="width:100%;" src="https://vinapad.com/wp-content/uploads/2019/06/noi-that-khach-san-can-ho-bilihome-1.jpg" alt="">
+                  <p><i class="fas fa-angle-double-right"></i> Đọc Ngay</p>
+                </a>
+                <p style="font-size: 25px; color:  rgb(141, 141, 104);">Tập Đoàn TSH Thành Công Rất Nhanh Chóng</p>
+             </td>
+           </tr>
+          </table> 
+         </div>
+         <div class="col-sm-6 col-md-4 new2">
+          <table border="1">
+            <tr>
+              <td>
+                <a class="more" href="">
+                  <img style="width:100%;" src="https://vncdesign.com.vn/wp-content/uploads/2018/07/thiet-ke-noi-that-biet-thu-vinhomes-the-harmony-2.jpg" alt="">
+                  <p><i class="fas fa-angle-double-right"></i> Đọc Ngay</p>
+                </a>
+                <p style="font-size: 25px;color:rgb(141, 141, 104);">Chủ Tịch Tập Đoàn TSH Và Sự Thành Công Khi Còn Trẻ</p>
+             </td>
+           </tr>
+          </table> 
+         </div>
+         <div class="col-sm-6 col-md-4 new3">
+            <table border="1">
+            <tr>
+              <td>
+                <a class="more" href="">
+                  <img style="width:100%;" src="https://mondaycareer.com/wp-content/uploads/2020/12/h%C3%ACnh-%E1%BA%A3nh-th%E1%BA%AFc-m%E1%BA%AFc-%C4%91%E1%BA%B9p-cho-ng%C6%B0%E1%BB%9Di-l%E1%BB%9Bn.jpg" alt="">
+                  <p><i class="fas fa-angle-double-right"></i> Đọc Ngay</p>
+                </a>
+                <p style="font-size: 25px;color:rgb(141, 141, 104);">Chủ Tịch Tập Đoàn TSH Thật Ra Là Ai?</p>
+             </td>
+           </tr>
+          </table> 
+         </div>
+       </div>
+     </div>
+     <div style="margin-top: 100px;" class="container">
+        <div class="row map">
+          <div class="col-sm-6 col-md-6 fb1">
+            <h1 style="color: #fff;">Feedback</h1>
+            <div class="ip">
+              <input  type="text" placeholder="Your name">
+        
+              <input id="ip2" type="text" placeholder="Phone number">
+            </div>
+            <input id="ip3" type="text" placeholder="Your Message">
+            <a id="send" href="#">Send Message</a>
+          </div>
+          <div class="col-sm-6 col-md-6 fb2">
+            <img width="100%" height="80%" src="https://sackim.com/wp-content/uploads/2018/07/voi-nhung-cong-cu-rat-huu-ich-ban-da-co-the-in-truc-tiep-ngay-tren-google-map.jpg" alt="">
+            
+            </div> 
+          </div>
+        </div>
+     </div>
+     <div style="margin-top: 100px;" class="container">
+       <div class="row">
+          <div class="col-12">
+            <h1 style="text-align: center;color: rgb(70, 66, 66);">Creating an account</h1>
+            <p  style="text-align: center;color: rgb(70, 66, 66);">Tạo tải khoản để được hưởng thêm ưu đãi cực khủng lên đến 0,2%</p>
+            <div class="dkv">
+              <a id="tung" class="dk" href="#creat">Đăng Ký Ngay</a>
+            </div>
+          </div>
+       </div>
+      </div>
+     
+      <div id="creat" class="main">
+      <div class="containerr">
+        <a class="close" href="#tung">&times;</a>
+        <div class="title">Đăng Ký Tài Khoản</div>
+        <form action="#">
+            <div class="user-detail">
+                <div class="input-box">
+                    <span class="detail">Full Name</span>
+                    <input type="text" placeholder="Enter your name" required>
+                </div>
+                <div class="input-box">
+                   <span class="detail">Username</span>
+                   <input type="text" placeholder="Enter your username" required>
+               </div>
+               <div class="input-box">
+                   <span class="detail">Email</span>
+                   <input type="text" placeholder="Enter your Email" required>
+               </div>
+               <div class="input-box">
+                   <span class="detail">Phone Number</span>
+                   <input type="text" placeholder="Enter your Phone number" required>
+               </div>
+               <div class="input-box">
+                   <span class="detail">Password</span>
+                   <input type="text" placeholder="Enter your password" required>
+               </div>
+               <div class="input-box">
+                   <span class="detail">Confirm Password</span>
+                   <input type="text" placeholder="confirm password" required>
+               </div>
+            </div>
+            <div class="gt">
+                <span class="gt-detail">Gender</span>
+                <div class="cate">
+                    <label for="">
+                        <input type="radio" name="sex" id="sex">
+                        <span class="gender">Male</span>
+                    </label>
+                    <label for="">
+                       <input type="radio" name="sex" id="sex">
+                       <span class="gender">Female</span>
+                   </label>
+                   <label for="">
+                       <input type="radio" name="sex" id="sex">
+                       <span class="gender">Không tiện nói</span>
+                   </label>
+                </div>
+            </div>
+            <div class="button">
+                <input type="submit" value="ĐĂNG KÝ">
+            </div>
+        </form>
+    </div>
+         
+     </div>
+    
+    </div>
+    <div style="margin-top: 200px;" class="container-fluid">
+      <div class="row footer">
+        <div class="col-12 final">
+           <a href=""><i style="font-size: 30px;color: #fff;" class="fab fa-facebook-square"></i></a>
+           <a href=""><i style="font-size: 30px;color: #fff;" class="fab fa-instagram"></i></a>
+           <a href=""><i style="font-size: 30px;color: #fff;" class="fab fa-twitter-square"></i></a>
+           <a href=""><i style="font-size: 30px;color: #fff;" class="fab fa-youtube-square"></i></a>
+           <a href=""><i style="font-size: 30px;color: #fff;" class="fab fa-snapchat-square"></i></a>
+        </div>
+      </div>
+    </div>
+     <p style="text-align: center; font-size: 30px;color: rgb(70, 66, 66);">created by Tung </p>
+    <div class="container-fluid money">
+      <div class="row">
+        <div class="col-6 shopee">
+          <a href="">
+            <h1 style="text-align: center; color: #fff;"><i class="fas fa-arrow-alt-circle-right"></i> Thêm Hàng</h1>
+          </a>
+        </div>
+        <div class="col-6 shopping">
+          <a href="">
+            <h1 style="text-align: center; color: #fff;"><i class="fas fa-shopping-basket"></i>  Giỏ Hàng</h1>
+          </a>
+          </div>
+      </div>
+    </div> 
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
